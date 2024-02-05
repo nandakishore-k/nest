@@ -3,10 +3,21 @@ body{
     background-size: auto;
 
 }
+#p1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white
+}
 
+#p2{
+    display: flex;
+
+}
 .name{
     color: white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 60px;
 }
@@ -15,6 +26,7 @@ body{
     display: flex;
     justify-content: center;
     padding-bottom: .5cm;
+    border-radius: 50%;
 }
 .container {
     display: flex;
@@ -30,13 +42,25 @@ body{
     background-color: rgb(21, 8, 69);
     color:white;
     max-width: 10cm;
-    max-height: 10cm;
+    max-height: 6cm;
 }
 
 .rdiv {
     margin-left: 15px;
      /* Example background color for right column */
   }
-#name{
+#link{
     color: yellow;
+    display: flex;
+    justify-content: center;
 }
+
+.sec{
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+}
+
